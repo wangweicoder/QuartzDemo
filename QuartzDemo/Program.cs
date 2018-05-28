@@ -18,7 +18,6 @@ namespace QuartzDemo
                 x.UseLog4Net();
 
                 x.Service<ServiceRunner>();
-
                 x.SetDescription("QuartzDemo服务描述");
                 x.SetDisplayName("QuartzDemo服务显示名称");
                 x.SetServiceName("QuartzDemo服务名称");
