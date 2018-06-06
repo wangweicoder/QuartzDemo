@@ -16,7 +16,6 @@ namespace QuartzDemo
             HostFactory.Run(x =>
             {
                 x.UseLog4Net();
-
                 x.Service<ServiceRunner>();
                 x.SetDescription("QuartzDemo服务描述");
                 x.SetDisplayName("QuartzDemo服务显示名称");
